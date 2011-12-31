@@ -13,8 +13,6 @@ module Develnet
     attr_accessor :client
 
     class Base < Commands
-      include Config
-      include Version
 
       def initialize()
         @client = self.connect

@@ -47,7 +47,7 @@ module Develnet
       end
       
       def get_jid(str)
-        matches = str.match(/([a-z\d_.\-]{1,32})@{[a-z\d.-]{1,32}}\//i)
+        matches = str.match(/([a-z\d_.\-]{1,32})@([a-z\d.-]{1,32})\//i)
         return "#{matches[1]}@#{matches[2]}"
       end
     end

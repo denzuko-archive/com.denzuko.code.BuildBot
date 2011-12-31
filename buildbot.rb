@@ -2,7 +2,7 @@ $:.unshift File.join(File.dirname(__FILE__),'lib')
 require 'rubygems'
 require 'bundler/setup'
 
-Bundle.require!
+Bundler.require
 
 require 'buildbot'
 

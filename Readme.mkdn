@@ -1,3 +1,6 @@
-Buildbot
+# Buildbot
+## a sample XMPP4R presence bot.
+(C)2011 Dwight Spencer (denzuko) dspencer@denzuko.co.cc All rights reserved.
 
-a sample XMPP4R presence bot.
+### Summary
+The idea is to give our vm nodes a status and presence manager.
